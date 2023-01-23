@@ -1,0 +1,32 @@
+{
+    "header-1": {
+      "html": "<header class='header'> <div class='logo'>Socore Digital Systems</div> <ul><li>Anasayfa</li><li>Hakkımızda</li><li>İletişim</li><li>Ürünler</li></ul></header>",
+      "css": "*{margin: 0; border: 0; padding: 0; text-decoration: none; list-style: none; box-sizing: border-box;} .header{display: flex; justify-content: space-between;} ul{display: flex;} li{margin-left: 25px; background: #fec902; padding: 5px 10px; border-radius: 7px;}",
+      "js": "let a = 1; let c = 2; console.log(a + c)"
+    },
+    "header-2": {
+      "html": "<header class='header'> Header 2 </header>",
+      "css": " .header{ background: #ff7f00 }",
+      "js": "let a = 1; let c = 2; console.log(a + c)"
+    },
+    "header-3": {
+      "html": "<header class='header'> Header 3 </header>",
+      "css": " .header{ background: #ff7f00 }",
+      "js": "let a = 1; let c = 2; console.log(a + c)"
+    },
+    "footer-1": {
+      "html": "<footer class='footer'> Footer 1 </footer>",
+      "css": " .footer{ background: #ff7f00 }",
+      "js": "let a = 1; let c = 2; console.log(a + c)"
+    },
+    "footer-2": {
+      "html": "<footer class='footer'> Footer 2 </footer>",
+      "css": " .footer{ background: #ff7f00 }",
+      "js": "let a = 1; let c = 2; console.log(a + c)"
+    },
+    "footer-3": {
+      "html": "<footer class='footer'> Footer 3 </footer>",
+      "css": " .footer{ background: #ff7f00 }",
+      "js": "let a = 1; let c = 2; console.log(a + c)"
+    }
+  }
