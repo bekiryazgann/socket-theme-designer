@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body class="h-full flex justify-between">
+
+<aside class="w-96 bg-amber-300 rounded-r-xl px-3 py-4">
+    <ul>
+        <li class="mb-3"> <button class="px-3 py-2 w-full h-24 bg-amber-500 rounded" id="reloadiframe" onclick="javascript: void(0);"> Yenile </button> </li>
+        <li class="border border-1 border-amber-500 p-2 rounded bg-amber-400 mb-3">
+            <label class="flex flex-col">
+                <span class="text-white text-lg">Header Tasarımı</span>
+                <select name="" id="header-design" class="p-2 bg-transparent rounded text-white">
+                    <option value="header-1" selected> Header 1 </option>
+                    <option value="header-2"> Header 2 </option>
+                    <option value="header-3"> Header 3 </option>
+                </select>
+            </label>
+        </li>
+        <li class="border border-1 border-amber-500 p-2 rounded bg-amber-400 mb-3">
+            <label class="flex flex-col">
+                <span class="text-white text-lg">Footer Tasarımı</span>
+                <select name="" id="footer-design" class="p-2 bg-transparent rounded text-white">
+                    <option value="footer-1" selected> Footer 1 </option>
+                    <option value="footer-2"> Footer 2 </option>
+                    <option value="footer-3"> Footer 3 </option>
+                </select>
+            </label>
+        </li>
+    </ul>
+</aside>
+<main class="flex-1 ml-5">
+    <iframe src="" class="w-full h-full border border-amber-500 rounded"></iframe>
+</main>
+
+<script src="http://192.168.1.156:3030/socket.io/socket.io.js"></script>
+<script src="./static/js/main.js"></script>
+</body>
+</html>
